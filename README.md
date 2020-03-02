@@ -52,6 +52,7 @@ rather than reading in the entire dataset and subsetting to those
 dates.
 
 *Here I can not clearly understand how to read the data from just those dates ? 
+*Or we can check every string from this text file, and get the only strings between required dates? 
 
 * You may find it useful to convert the Date and Time variables to
 Date/Time classes in R using the `strptime()` and `as.Date()`
