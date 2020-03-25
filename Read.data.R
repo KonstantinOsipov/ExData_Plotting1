@@ -5,4 +5,3 @@ tail(dataset)
 # then let's convert the Date and Time columns to Date/Time classes in R using the strptime() and as.Date() functions.
 dataset$Date <- as.Date(dataset$Date, format = "%d/%m/%Y")
 data <- (dataset[((dataset$Date>="2007-02-01") & (dataset$Date<="2007-02-02")) ,])
-hist(data$Global_active_power, col="red", main = "Global Active Power", xlab = 'Global Active Power (kilowatts)')
